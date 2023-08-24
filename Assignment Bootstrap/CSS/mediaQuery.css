@@ -1,0 +1,97 @@
+@media screen and (max-width: 991.98px) {
+  .item2 {
+    & > img {
+      max-width: 20rem;
+    }
+  }
+
+  .services .container {
+    -webkit-transform: translateY(-4rem);
+    -moz-transform: translateY(-4rem);
+    -ms-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+
+  .service-grid-item1,
+  .service-grid-item2,
+  .service-grid-item3 {
+    border: none;
+  }
+  .service-grid-item1,
+  .service-grid-item2 {
+    border-bottom: 2px solid #4d4f5e;
+  }
+
+  .service-grid-item1,
+  .service-grid-item3 {
+    border-right: 2px solid #4d4f5e;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .banner-nav-links li {
+    margin: 0.2rem;
+  }
+  .features-area {
+    gap: 10px;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    box-shadow: none;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .download-btn {
+    font-size: 0.8rem;
+  }
+
+  .banner-nav-links a {
+    padding-inline: 0.1rem;
+  }
+
+  .service-grid-container {
+    font-size: 1.1rem;
+    & > .service-grid-item1 {
+      border-right: none;
+    }
+    & > .service-grid-item3 {
+      padding-bottom: 8px;
+      border-right: none;
+      border-bottom: 2px solid #4d4f5e;
+    }
+  }
+  .features-area {
+    border: none;
+    gap: 10px;
+    box-shadow: none;
+  }
+
+  .services {
+    background-color: #c8c8c6;
+  }
+  .services .container {
+    margin-inline: 15px;
+    width: auto;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  .link-column {
+    & a {
+      font-size: 0.9em;
+    }
+  }
+
+  .sub-footer .container {
+    margin-inline: 15px;
+    width: auto;
+  }
+}
