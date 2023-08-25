@@ -10,9 +10,7 @@
 
 /* utility classes */
 
-.container {
-  /* padding-inline: 15px !important; */
-}
+
 
 /* top banner */
 
@@ -112,8 +110,8 @@ header {
 
 .download-btn {
   color: #e6f2f3;
-  border-radius: 10px;
-  padding: 5px 10px;
+  border-radius: 10px !important;
+  padding: 5px 10px !important;
   background-color: #1a3352;
   box-shadow: 0px -20px 6px -20px rgba(255, 255, 255, 1) inset,
     -20px 0px 6px -20px rgba(255, 255, 255, 1) inset;
